@@ -3,10 +3,15 @@ _Laravel 5.2 + react_
 _`(under development)`_
 
 **_instalation:_**
+
 _git clone_
+
 _composer update_
+
 _npm i_
+
 _php artisam migrate --seed_
+
 _webpack_
 
 1. Created models: user, company, dictionary, vacancy (not finished - event) 
