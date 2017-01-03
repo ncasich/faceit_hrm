@@ -15,5 +15,6 @@ _webpack_
 4. Company forms already sends data to proper controller methods (make the rest the same)
 5. Add notes (see reactjs 02_notes app)
 6. Make delete actions for all models
-7. Copy backend from faceit_hrm 
+7. Copy backend from faceit_hrm
+8. Permissions and authentification 
 
