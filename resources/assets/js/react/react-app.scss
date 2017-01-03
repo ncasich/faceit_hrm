@@ -1,0 +1,7 @@
+@import "../../sass/variables";
+@import "../../sass/mixins";
+
+.drawer {
+  @extend .item-shadow;
+  background-image: $secondary-gradient;
+}

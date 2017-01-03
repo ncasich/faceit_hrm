@@ -1,0 +1,31 @@
+//@import "../../../../../../../../sass/mixins";
+
+.user-feature {
+  display: flex;
+  padding: 5px 0;
+  align-items: center;
+}
+
+.avatar-container {
+  display: flex;
+  height: 256px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  .user-avatar {
+    height: 246px;
+    max-width: 100%;
+  }
+}
+
+.user-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.history-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+.panel-controls {
+  display: flex;
+  flex-direction: row;
+  .controls-title{
+    display: flex;
+    align-items: center;
+  }
+  .controls {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+}

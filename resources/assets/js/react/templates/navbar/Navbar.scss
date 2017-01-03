@@ -1,0 +1,9 @@
+@import "../../../../sass/variables";
+@import "../../../../sass/mixins";
+
+.hrm-navbar {
+  @extend .item-shadow;
+  background-image: $primary-gradient;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}

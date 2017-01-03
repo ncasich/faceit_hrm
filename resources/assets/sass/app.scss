@@ -1,0 +1,23 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "variables";
+@import "mixins";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+$font-family-sans-serif: 'Lato', sans-serif;
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css);
+
+body {
+  background-color: $background-color;
+}
+
+.panel-primary {
+  @extend .item-border;
+  @extend .item-shadow;
+  .panel-heading {
+    @extend .item-heading;
+  }
+}
+
+.table-container {
+  padding: 0;
+}
